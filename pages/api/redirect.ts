@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { ObjectID } from 'mongodb';
 import { connectToDatabase } from "./_connector";
 
