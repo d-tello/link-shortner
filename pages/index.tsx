@@ -49,6 +49,7 @@ export default function Home() {
       <Head>
         <title>Link Shortner</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#c4f1be"/>
       </Head>
       <Header className={styles.header}>
         <div className={styles.logo} />
