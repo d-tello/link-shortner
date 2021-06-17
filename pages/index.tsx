@@ -68,13 +68,13 @@ export default function Home() {
                   message: 'Please paste a correct link',
                   type: 'url',
                 }]}>
-                  <Input placeholder="https://my-super-long-link.com/blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah" size="large"/>
+                  <Input placeholder="Insert your long link here" size="large"/>
                 </Form.Item>
               </div>
               <div className={styles.linkFieldButton}>
                 <Form.Item>
                   <Button type="primary" htmlType="submit" style={{ width: '100%' }} size="large">
-                    Shorten!
+                    Short it!
                   </Button>
                 </Form.Item>
               </div>
