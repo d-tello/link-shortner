@@ -6,6 +6,10 @@
   background: rgba(255, 255, 255, 0.3);
 }
 
+.header {
+  background: #ebbab9;
+}
+
 .content {
   display: flex;
   align-items: center;
@@ -35,4 +39,17 @@
 
 .footer {
   text-align: center;
+}
+
+.submitButton {
+  background: #c4f1be;
+  border: 1px solid #c4f1be;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-out;
+
+  &:hover {
+    background: #c4f1be;
+    border: 1px solid #c4f1be;
+    opacity: 1;
+  }
 }

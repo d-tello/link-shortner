@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useState } from 'react';
 import axios, { AxiosError } from 'axios';
 import { Alert, Button, Form, Input, Layout, Typography } from 'antd'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
@@ -50,7 +50,7 @@ export default function Home() {
         <title>Link Shortner</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header>
+      <Header className={styles.header}>
         <div className={styles.logo} />
       </Header>
       <Content className={styles.content}>
@@ -73,7 +73,7 @@ export default function Home() {
               </div>
               <div className={styles.linkFieldButton}>
                 <Form.Item>
-                  <Button type="primary" htmlType="submit" style={{ width: '100%' }} size="large">
+                  <Button type="primary" htmlType="submit" style={{ width: '100%' }} size="large" className={styles.submitButton}>
                     Short it!
                   </Button>
                 </Form.Item>
